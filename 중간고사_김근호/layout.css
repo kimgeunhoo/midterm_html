@@ -1,0 +1,144 @@
+body {
+    font-family: "맑은 고딕", "고딕", "굴림";
+    
+}
+
+header {
+    background-color: rgb(255, 255, 255); /* 배경 색상 */
+    width: 100%; /* 너비 조절 */
+    /* 좌우 정렬 */
+    image-rendering: 600px;
+    margin-left: auto; 
+    /* 상자 위 오른 왼 방향 증가 */
+    padding: 10px;
+    overflow: hidden;
+    /* padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px; */
+    /* padding: 10px 20px 50px 60px; */
+    text-align: left;
+    
+}
+header > h1 {
+    text-align: right;
+    color: black;
+    font: "맑은 고딕";
+}
+header > p {
+    text-align: right;
+    color: #919191;
+    font: "맑은 고딕";
+}
+
+
+h1 {
+    font-size: 2em;
+    float: left;
+}
+/* header의 자손인 h1 태그에 적용 header > h1 가능 */
+/* 조상 _ 자손 header h1 부모 > 자손 header > h1 */
+header h1 {
+    width: 40%;
+    color: rgb(255, 255, 255);
+}
+/* header의 자식인 nav에 적용 */
+header > nav {
+    width: 100%;
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    margin: 15px;
+}
+
+a { /* nav a    or    nav ul li a */
+    text-decoration: none;
+    color: white;
+} 
+
+section {
+    
+    padding: 5px; /* 안쪽 여백 */
+}
+
+h2 {
+    font-size: 1.8em;
+    border-left: 8px solid rgb(155, 225, 255);
+    padding: 15px;
+    box-shadow: 0px 3px 0px 0px rgb(155, 225, 255); /* x좌표 Y좌표 번짐 흐림 */
+}
+
+#intro1 {
+    font-size: 1.3em;
+    padding: 15px 0px 15px 10px; /*위 오른 아래 왼*/
+    border-left: 8px solid rgb(104, 203, 157);
+    background-color: rgb(155, 252, 220);
+    /* box-shadow: -10px 0px 0px 0px purple; 의도치 않은 응용 */ 
+}
+
+#intro2 {
+    font-size: 1.3em;
+    padding: 15px 0px 15px 10px; /*위 오른 아래 왼*/
+    border-left: 8px solid rgb(193, 175, 99);
+    background-color: rgb(248, 217, 169);
+    /* box-shadow: -10px 0px 0px 0px purple; 의도치 않은 응용 */ 
+}
+
+p {
+    line-height: 30px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+dl {
+    line-height: 30px;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+dt {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(103, 186, 186);
+}
+article ul {
+    line-height: 30px;
+}
+
+footer {
+    background-color: #919191;
+    width: 80%;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    color: black;   
+}
+
+.com1 {
+    box-shadow: 5px 3px 3px 2px gray;
+}
+
+#back1 {
+    box-shadow: 5px 3px 8px 3px gray;
+    width: 90%;
+    margin-top: auto;
+    margin-right: auto;
+}
+#back2 {
+    box-shadow: 5px 3px 8px 3px gray;
+    width: 90%;
+    margin-top: auto;
+    margin-right: auto;
+}
